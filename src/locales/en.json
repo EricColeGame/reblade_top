@@ -441,6 +441,28 @@
     "home": "Home",
     "noGuidesAvailable": "No guides available yet. Check back soon!"
   },
+  "legal": {
+    "aboutTitle": "About",
+    "aboutIntro": "ReBlade Wiki is an independent fan-built guide hub covering weapon builds, chips and augments, combat strategies, enemies, demo details, and essential game knowledge for new and veteran players alike.",
+    "aboutGame": "ReBlade: The Death Spiral is a cyberpunk action roguelike developed by ChillyRoom and published by Spiral Up Games. This site is not affiliated with or endorsed by either company.",
+    "aboutContact": "Questions or corrections can be sent to support@reblade.top.",
+    "privacyTitle": "Privacy Policy",
+    "privacyIntro": "This fan wiki provides informational game guides for ReBlade: The Death Spiral. We do not request Steam account credentials, passwords, or private payment information.",
+    "privacyData": "Basic analytics, advertising, and hosting providers may process standard technical information such as device type, browser, approximate region, and visited pages.",
+    "privacyLinks": "External links may lead to Steam, Discord, YouTube, X, TikTok, Instagram, or community tools. Those services are governed by their own privacy policies.",
+    "privacyContact": "Privacy questions may be sent to support@reblade.top.",
+    "termsTitle": "Terms of Service",
+    "termsIntro": "This site is an independent fan-made guide hub. Content is provided for informational and entertainment purposes only.",
+    "termsChanges": "Game systems, demo content, builds, and update details may change without notice. Always verify important information in-game or through official channels.",
+    "termsUse": "By using this site, you agree not to misuse it, attempt unauthorized access, or present this fan wiki as an official ChillyRoom or Spiral Up Games property.",
+    "copyrightTitle": "Copyright",
+    "copyrightOwners": "ReBlade: The Death Spiral, its logos, artwork, trailers, and related media belong to ChillyRoom, Spiral Up Games, and their respective owners.",
+    "copyrightFan": "ReBlade Wiki is an independent, non-official fan guide hub. Game names and trademarks are used for identification and commentary only.",
+    "copyrightContact": "If you own rights to content displayed here and have a concern, contact support@reblade.top for review.",
+    "notFoundTitle": "Page not found",
+    "notFoundDescription": "The guide you are looking for may have moved or has not been added yet.",
+    "browseGuides": "Browse Guides"
+  },
   "footer": {
     "aboutTitle": "ReBlade Wiki",
     "about": "ReBlade Wiki is an independent fan-built guide hub covering weapon builds, chips and augments, combat strategies, enemies, demo details, and essential game knowledge for new and veteran players alike.",

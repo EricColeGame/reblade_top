@@ -255,14 +255,38 @@ const GROUP_TITLES_JA: Record<string, string> = {
   community: "コミュニティ",
 };
 
+// 韓国語のグループタイトル
+const GROUP_TITLES_KO: Record<string, string> = {
+  guide: "가이드",
+  mechanics: "메커니즘",
+  weapons: "무기",
+  demo: "데모",
+  release: "출시",
+  community: "커뮤니티",
+};
+
+// ポルトガル語（ブラジル）のグループタイトル
+const GROUP_TITLES_PT_BR: Record<string, string> = {
+  guide: "Guias",
+  mechanics: "Mecânicas",
+  weapons: "Armas",
+  demo: "Demo",
+  release: "Lançamento",
+  community: "Comunidade",
+};
+
 // locale → 分组标题映射
 const GROUP_TITLES_BY_LOCALE: Record<string, Record<string, string>> = {
   ja: GROUP_TITLES_JA,
+  ko: GROUP_TITLES_KO,
+  "pt-BR": GROUP_TITLES_PT_BR,
 };
 
 // locale → "Overview" 翻译
 const OVERVIEW_LABEL_BY_LOCALE: Record<string, string> = {
   ja: "一覧",
+  ko: "개요",
+  "pt-BR": "Visão geral",
 };
 
 // 分组排序顺序

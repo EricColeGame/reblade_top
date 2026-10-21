@@ -1,12 +1,22 @@
+import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import { LegalPage } from "@/components/legal-page";
 
-export default function PrivacyPolicyPage() {
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "legal" });
+  return { title: t("privacyTitle"), description: t("privacyIntro") };
+}
+
+export default async function PrivacyPolicyPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "legal" });
   return (
-    <LegalPage title="Privacy Policy">
-      <p>This fan wiki provides informational game guides for ReBlade: The Death Spiral. We do not request Steam account credentials, passwords, or private payment information.</p>
-      <p>Basic analytics, advertising, and hosting providers may process standard technical information such as device type, browser, approximate region, and visited pages.</p>
-      <p>External links may lead to Steam, Discord, YouTube, X, TikTok, Instagram, or community tools. Those services are governed by their own privacy policies.</p>
-      <p>Privacy questions may be sent to support@reblade.top.</p>
+    <LegalPage title={t("privacyTitle")}>
+      <p>{t("privacyIntro")}</p>
+      <p>{t("privacyData")}</p>
+      <p>{t("privacyLinks")}</p>
+      <p>{t("privacyContact")}</p>
     </LegalPage>
   );
 }

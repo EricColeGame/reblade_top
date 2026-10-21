@@ -1,1 +1,486 @@
-{}
+{
+  "site": {
+    "name": "ReBlade Wiki",
+    "shortName": "ReBlade",
+    "tagline": "빌드·무기·칩·전투 가이드",
+    "description": "ReBlade: The Death Spiral의 무기 빌드, 칩과 증강 조합, 전투 전략, 적 가이드, 데모 정보, 최신 게임 뉴스를 정리한 팬 위키입니다.",
+    "legalNotice": "비공식 팬 위키입니다. ReBlade: The Death Spiral 및 관련 상표는 ChillyRoom과 Spiral Up Games에 귀속됩니다."
+  },
+  "nav": {
+    "menu": "메뉴",
+    "toggleTheme": "테마 전환",
+    "guide": "가이드",
+    "mechanics": "메커니즘",
+    "weapons": "무기",
+    "demo": "데모",
+    "release": "출시",
+    "community": "커뮤니티"
+  },
+  "home": {
+    "meta": {
+      "title": "ReBlade Wiki - 빌드·무기·초보자 가이드",
+      "description": "ReBlade: The Death Spiral의 초보자 가이드, 무기 빌드, 칩과 증강, 전투 팁, 적 전략, 데모 정보, 공식 업데이트를 확인하세요."
+    },
+    "hero": {
+      "eyebrow": "사이버펑크 액션 로그라이크",
+      "title": "ReBlade Wiki",
+      "description": "ReBlade: The Death Spiral의 무기 빌드, 칩과 증강 조합, 전투 전략, 적 가이드, 데모 정보, 최신 게임 뉴스를 정리한 팬 위키입니다.",
+      "stats": [
+        "2026년 10월 19일 데모 출시",
+        "데모 리뷰 81% 긍정적",
+        "데모 지원 언어 4개",
+        "정식 출시일 미정"
+      ],
+      "primaryCta": "초보자 가이드",
+      "secondaryCta": "Steam에서 무료 데모 플레이",
+      "tertiaryCta": "Steam 커뮤니티 허브",
+      "videoLabel": "공식 예고편"
+    },
+    "updates": {
+      "title": "최신 업데이트",
+      "browse": "모든 가이드 보기",
+      "viewAll": "전체 보기"
+    },
+    "start": {
+      "eyebrow": "여기서 시작하세요",
+      "title": "ReBlade 여정",
+      "cards": [
+        {
+          "number": "1",
+          "title": "초보자 가이드",
+          "description": "패리 중심 전투 루프, 초반 강화 우선순위, 첫 런을 계속 나아가게 하는 습관을 배우세요."
+        },
+        {
+          "number": "2",
+          "title": "패리 타이밍",
+          "description": "적의 예비 동작을 읽고, 블래스터 탄환을 공격자에게 튕겨내며, 방어를 확실한 피해 기회로 바꾸세요."
+        },
+        {
+          "number": "3",
+          "title": "무기 빌드",
+          "description": "표준 검, 쌍검, 도끼와 방패 세트를 비교하고 칩과 증강으로 각 런을 구성하세요."
+        },
+        {
+          "number": "4",
+          "title": "데스 루프",
+          "description": "영구 무기·칩 해금을 활용해 리셋할 때마다 이전보다 강해지세요."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "인기 페이지",
+      "title": "주목받는 ReBlade 가이드",
+      "quickLinks": [
+        "초보자 가이드",
+        "패리 타이밍",
+        "무기 빌드",
+        "데모 출시"
+      ],
+      "cards": [
+        {
+          "badge": "초보자",
+          "title": "ReBlade 초보자 가이드",
+          "description": "전투 타이밍, 무기 해금, 강화 우선순위, 이후 사이클에 이어지는 자원 관리부터 시작하세요.",
+          "href": "/guide/reblade-beginner-guide"
+        },
+        {
+          "badge": "전투",
+          "title": "ReBlade 패리 가이드",
+          "description": "패링 타이밍, 적의 예비 동작, 블래스터 반사, 반응형 방어에 맞는 무기 세트를 익히세요.",
+          "href": "/guide/reblade-parry-guide"
+        },
+        {
+          "badge": "메커니즘",
+          "title": "ReBlade 전투 메커니즘",
+          "description": "아이소메트릭 전투 루프, 정밀 패리, 빌드 구성, 영구 칩 성장을 이해하세요.",
+          "href": "/mechanics/reblade-combat-mechanics"
+        },
+        {
+          "badge": "진행",
+          "title": "ReBlade 진행 시스템",
+          "description": "사망 후 초기화되는 요소, 지속되는 무기와 사이버네틱 칩 해금, 빌드가 형성되는 방식을 확인하세요.",
+          "href": "/mechanics/reblade-progression-system"
+        },
+        {
+          "badge": "데모",
+          "title": "ReBlade 데모 출시",
+          "description": "Steam Next Fest 무료 데모를 다운로드하고 플레이 가능한 빌드의 내용을 확인하세요.",
+          "href": "/demo/reblade-demo-release"
+        },
+        {
+          "badge": "출시",
+          "title": "ReBlade PC 출시",
+          "description": "미정인 출시일, 데모 접근, 시스템 요구 사항, 확인된 PC 정보를 추적하세요.",
+          "href": "/release/reblade-pc-release"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "ReBlade란 무엇인가요?",
+      "paragraphs": [
+        "ReBlade: The Death Spiral은 ChillyRoom이 개발하고 Spiral Up Games가 퍼블리싱하는 사이버펑크 액션 로그라이크입니다. 끝없는 리셋에 갇힌 저주받은 합성체가 되어, 중국 신화를 모티프로 한 네온 대도시에서 기계 생명체를 베어 나갑니다. 무기, 칩, 증강을 조합해 매 런마다 새로운 빌드를 만들고, 영구 해금으로 진행을 이어갑니다.",
+        "전투는 타이밍과 조작이 핵심입니다. 적의 예비 동작을 읽고, 공격을 패리하고, 블래스터 사격을 튕겨내며, 사용 가능한 구역이 사라지기 전에 도시 각 층의 경로를 선택하세요. ReBlade Wiki는 데모, 시스템 요구 사항, 무기와 칩 시스템, 보스전, 그리고 이 순환의 이야기를 다룹니다."
+      ],
+      "stats": [
+        {
+          "label": "개발사",
+          "value": "ChillyRoom"
+        },
+        {
+          "label": "퍼블리셔",
+          "value": "Spiral Up Games"
+        },
+        {
+          "label": "플랫폼",
+          "value": "PC (Steam)"
+        },
+        {
+          "label": "장르",
+          "value": "사이버펑크 액션 로그라이크"
+        },
+        {
+          "label": "데모",
+          "value": "2026년 10월 19일"
+        },
+        {
+          "label": "정식 출시",
+          "value": "미정"
+        },
+        {
+          "label": "지원 언어",
+          "value": "4"
+        }
+      ],
+      "cta": "ReBlade 가이드 살펴보기"
+    },
+    "explore": {
+      "title": "ReBlade Wiki 둘러보기",
+      "description": "ReBlade: The Death Spiral의 전투 타이밍, 무기, 칩, 보스, 스토리, 데모 업데이트, PC 요구 사항을 다루는 8개 허브입니다.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "ReBlade 초보자 가이드",
+          "description": "ReBlade 첫 1시간의 우선순위를 배우세요. 적의 예비 동작을 읽고, 무기 하나에 집중하고, 초반 강화는 생존력에 투자하세요.",
+          "href": "/guide/reblade-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "공격을 시작하기 전에 각 적의 예비 동작을 관찰하세요. 의도적인 방어가 전투를 배우는 가장 빠른 길입니다."
+            },
+            {
+              "label": "2",
+              "detail": "초반에 무기 하나를 골라 사거리, 후딜, 패리 후 회복을 익힌 뒤 다른 무기로 넓혀가세요."
+            },
+            {
+              "label": "3",
+              "detail": "예측 가능한 공격은 튕겨내고, 예비 동작이 겹쳐 다음 타격이 보이지 않는 혼전에서는 회피를 남겨두세요."
+            },
+            {
+              "label": "4",
+              "detail": "초반 강화는 생존력에 쓰고, 현재 층의 전투를 읽을 수 있게 되면 피해량을 더하세요."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "ReBlade 무기와 빌드",
+          "description": "ReBlade의 무기 세트를 비교하고 칩, 증강, 장비 특성이 런을 하나의 빌드로 만드는 방식을 확인하세요.",
+          "href": "/mechanics/reblade-combat-mechanics",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "검",
+              "detail": "속도와 위력의 균형이 좋은 표준 검은 패리 타이밍을 배우는 가장 깔끔한 출발점입니다."
+            },
+            {
+              "label": "쌍검",
+              "detail": "빠르고 부담이 적은 공격은 반응형 튕겨내기와 콤보 중 패리를 노리는 공격적인 플레이어에게 맞습니다."
+            },
+            {
+              "label": "도끼",
+              "detail": "무거운 도끼와 방패 세트는 속도를 희생해 사거리와 충격을 얻으며, 깔끔한 튕겨내기 후의 인내에 보답합니다."
+            },
+            {
+              "label": "칩",
+              "detail": "원소 및 회복 보정을 장비 부위 사이에서 옮겨, 런 중에 찾은 무기를 강화할 수 있습니다."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "ReBlade 전투 가이드",
+          "description": "적의 예비 동작, 튕겨내기 타이밍, 블래스터 반사, 안전한 회복으로 ReBlade 전투 리듬을 정리하세요.",
+          "href": "/guide/reblade-parry-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "무기가 맞는 순간에 반응하기보다, 공격 전의 어깨, 자세, 발광을 보세요."
+            },
+            {
+              "label": "2",
+              "detail": "예측 가능한 공격은 박자에 맞춰 튕겨내세요. 깔끔한 튕겨내기가 피해 기회를 엽니다."
+            },
+            {
+              "label": "3",
+              "detail": "블래스터 탄환을 적에게 튕겨 보낸 뒤, 다음 사수가 발사하기 전에 위치를 바꾸세요."
+            },
+            {
+              "label": "4",
+              "detail": "시각적 혼잡으로 다음 공격이 읽히지 않으면 회피와 간격 조절로 빠진 뒤 패리로 복귀하세요."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "ReBlade 적과 보스",
+          "description": "보스 연격부터 드론, 브루저, 원거리 블래스터까지 ReBlade의 기계 적을 위협도 순으로 정리하세요.",
+          "href": "/guide/reblade-parry-guide",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "보스 연격 — 긴 연격의 마지막 타격을 익히고 마무리를 튕겨내세요."
+            },
+            {
+              "label": "A",
+              "detail": "원거리 블래스터 — 거리를 좁히기 전에 탄환을 근처 적에게 반사하세요."
+            },
+            {
+              "label": "B",
+              "detail": "거대 브루저 — 긴 예비 동작을 기다렸다가 무거운 공격을 튕겨낸 뒤 반격하세요."
+            },
+            {
+              "label": "C",
+              "detail": "기계 드론 — 위치를 유지하고 짧고 불규칙한 찌르기를 튕겨내세요."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "ReBlade 칩과 증강",
+          "description": "ReBlade 칩과 증강이 각 무기 빌드에 원소 피해, 회복, 장비 유연성을 더하는 방식을 확인하세요.",
+          "href": "/mechanics/reblade-progression-system",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "원소",
+              "detail": "원소 피해를 증폭해 깔끔한 패리와 무기 타격이 더 큰 보상을 내게 하세요."
+            },
+            {
+              "label": "회복",
+              "detail": "회복력이나 치유를 높여 튕겨내기를 놓쳐도 살아남고 패턴을 계속 익히세요."
+            },
+            {
+              "label": "교체",
+              "detail": "일부 버프와 특성을 장비 부위 사이에서 옮겨 런 중에 찾은 무기를 강화하세요."
+            },
+            {
+              "label": "빌드",
+              "detail": "무기, 칩, 증강을 조합해 사이클마다 새로운 ReBlade 구성을 만드세요."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "ReBlade 스토리와 세계관",
+          "description": "사이버 신화 도시, 저주받은 합성체 주인공, 동료, 끝없는 순환을 통해 ReBlade의 이야기를 따라가세요.",
+          "href": "/mechanics/reblade-cyberpunk-gameplay",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "배경",
+              "detail": "중국 신화 속 인물로 재해석된 사이보그 갱과 군벌이 지배하는 네온 대도시."
+            },
+            {
+              "label": "합성체",
+              "detail": "파괴를 선고받고 끝없는 리셋 순환에 갇힌 안드로이드."
+            },
+            {
+              "label": "동료",
+              "detail": "런 사이에 동료를 만나 발견한 자원을 교환하고 선택지를 넓히세요."
+            },
+            {
+              "label": "진실",
+              "detail": "사이클을 거듭할수록 루프를 깨고 합성체의 기원에 가까워집니다."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "ReBlade 출시일과 업데이트",
+          "description": "ReBlade 데모, Steam Next Fest 기간, 정식 출시 상태, 최신 공식 업데이트 경로를 추적하세요.",
+          "href": "/release/reblade-pc-release",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "데모 출시",
+              "detail": "무료 ReBlade 데모가 2026년 10월 19일 Steam에서 출시되었습니다."
+            },
+            {
+              "label": "Next Fest",
+              "detail": "데모는 Steam Next Fest에 맞춰 공개되었으며 10월 19일부터 11월 10일까지 이용할 수 있습니다."
+            },
+            {
+              "label": "정식 게임",
+              "detail": "Steam은 ReBlade 정식 출시일을 '미정'으로 표시하고 있습니다."
+            },
+            {
+              "label": "위시리스트",
+              "detail": "Steam에서 ReBlade를 위시리스트에 추가해 출시일과 데모 업데이트 알림을 받으세요."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "ReBlade 시스템 요구 사항",
+          "description": "ReBlade: The Death Spiral의 공개된 최소 및 권장 PC 사양을 비교하세요.",
+          "href": "/release/reblade-pc-release",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "OS",
+              "detail": "최소 Windows 10 64비트 / 권장 Windows 11 64비트."
+            },
+            {
+              "label": "CPU",
+              "detail": "최소 Intel Core i5-9400 또는 AMD Ryzen 5 5600 / 권장 Intel Core i5-12400 또는 AMD Ryzen 5 8600."
+            },
+            {
+              "label": "RAM",
+              "detail": "최소 16GB / 권장 32GB."
+            },
+            {
+              "label": "GPU",
+              "detail": "최소 NVIDIA RTX 2060 또는 AMD RX 5600 XT / 권장 NVIDIA RTX 3060 또는 AMD RX 6600 XT."
+            },
+            {
+              "label": "저장 공간",
+              "detail": "최소·권장 모두 25GB의 여유 공간."
+            },
+            {
+              "label": "DirectX",
+              "detail": "최소 버전 11 / 권장 버전 12."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "ReBlade 자주 묻는 질문",
+      "description": "ReBlade: The Death Spiral의 데모, 전투, 진행에 대해 바로 답합니다.",
+      "items": [
+        {
+          "question": "ReBlade: The Death Spiral은 무엇인가요?",
+          "answer": "ChillyRoom이 개발하고 Spiral Up Games가 퍼블리싱하는 사이버펑크 액션 로그라이크입니다. 끝없는 리셋에 갇힌 저주받은 합성체가 되어, 무기, 칩, 증강을 조합해 중국 신화에서 영감을 받은 도시에서 기계 생명체와 싸웁니다."
+        },
+        {
+          "question": "ReBlade 무료 데모가 있나요?",
+          "answer": "네. 무료 ReBlade 데모는 Steam Next Fest에 맞춰 2026년 10월 19일 Steam에서 출시되었습니다. 정식 게임 출시일은 '미정'으로 표시되어 있습니다."
+        },
+        {
+          "question": "ReBlade 전투는 어떻게 진행되나요?",
+          "answer": "ReBlade 전투는 타이밍과 조작이 핵심입니다. 적의 예비 동작을 읽고, 공격을 패리하고, 블래스터 탄환을 공격자에게 튕겨내세요. 적이 많아 다음 공격이 읽히지 않을 때는 회피와 간격 조절을 사용하세요."
+        },
+        {
+          "question": "ReBlade 런 사이에 무엇이 이어지나요?",
+          "answer": "런 중의 임시 무기와 증강은 초기화되지만, 무기와 사이버네틱 칩의 영구 해금은 유지됩니다. 적 패턴과 패리 타이밍에 대한 플레이어의 지식도 모든 사이클에서 유용합니다."
+        },
+        {
+          "question": "ReBlade는 어떤 플랫폼에서 플레이할 수 있나요?",
+          "answer": "ReBlade: The Death Spiral은 Steam을 통해 Windows PC용 무료 데모를 제공합니다. 정식 게임도 Steam PC용으로 등록되어 있으며 출시일은 아직 미정입니다."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "ReBlade: The Death Spiral을 마스터할 준비가 되셨나요?",
+      "description": "무료로 최신 팬 위키에서 무기 빌드, 칩과 증강 조합, 전투 전략, 데모 팁을 확인하세요.",
+      "primary": "초보자 가이드 읽기",
+      "secondary": "Steam에서 무료 데모 플레이"
+    }
+  },
+  "guide": {
+    "overviewTitle": "ReBlade 가이드: 초보자 팁, 전투, 진행",
+    "overviewDescription": "ReBlade: The Death Spiral 런을 초보자 조언, 패리 타이밍, 전투 기본기, 업적, 숨겨진 보스, 실용적인 진행 팁과 함께 시작하세요."
+  },
+  "mechanics": {
+    "overviewTitle": "ReBlade 메커니즘: 패리, 진행, 로그라이크 시스템",
+    "overviewDescription": "ReBlade의 패리 중심 전투, 무기 강화, 각성 효과, 영구 진행, 데스 루프가 어떻게 맞물리는지 이해하세요."
+  },
+  "weapons": {
+    "overviewTitle": "ReBlade 무기: 빌드, 강화, 최고의 블레이드",
+    "overviewDescription": "ReBlade 무기 빌드, 검 강화, 각성 선택, 진화 경로, 레이드 보스와 반복 런을 위한 로드아웃을 비교하세요."
+  },
+  "demo": {
+    "overviewTitle": "ReBlade 데모: 다운로드, 게임플레이, Steam Next Fest",
+    "overviewDescription": "무료 ReBlade Steam 데모의 구성, 다운로드 방법, 플레이 범위, Next Fest 빌드의 추가 요소를 확인하세요."
+  },
+  "release": {
+    "overviewTitle": "ReBlade 출시: 날짜, 플랫폼, 런칭 업데이트",
+    "overviewDescription": "Steam, PC, PS5, Xbox 전반의 ReBlade: The Death Spiral 출시 정보와 확정 플랫폼, 런칭 상태를 추적하세요."
+  },
+  "community": {
+    "overviewTitle": "ReBlade 커뮤니티: 트레일러, Reddit, 플레이어 반응",
+    "overviewDescription": "ReBlade 트레일러를 보고 Reddit 토론을 따라가며 사이버펑크 액션 로그라이크에 대한 커뮤니티 반응을 확인하세요."
+  },
+  "shared": {
+    "wikiNavigation": "위키 내비게이션",
+    "activeCodes": "활성 코드",
+    "updated": "업데이트",
+    "viewAllCodes": "모든 코드 보기",
+    "playOnRoblox": "Roblox에서 플레이",
+    "inThisSection": "이 섹션",
+    "tableOfContents": "목차",
+    "nextSteps": "다음 단계",
+    "needHelp": "도움이 필요하신가요?",
+    "relatedReading": "관련 글",
+    "relatedGuides": "관련 가이드",
+    "readMore": "더 보기",
+    "officialMedia": "공식 미디어",
+    "home": "홈",
+    "noGuidesAvailable": "아직 가이드가 없습니다. 곧 다시 확인해 주세요."
+  },
+  "footer": {
+    "aboutTitle": "ReBlade Wiki",
+    "about": "ReBlade Wiki는 무기 빌드, 칩과 증강, 전투 전략, 적, 데모 정보, 필수 게임 지식을 다루는 독립 팬 제작 가이드 허브입니다. 신규 플레이어와 베테랑 모두에게 도움이 됩니다.",
+    "quickLinks": "빠른 링크",
+    "guides": "가이드",
+    "legal": "법적 고지",
+    "copyright": "2026 ReBlade Wiki. ChillyRoom 또는 Spiral Up Games와 제휴하지 않습니다.",
+    "description": "사이버펑크 액션 로그라이크 가이드. 빌드, 무기, 칩, 증강, 전투 전략.",
+    "playGame": "Steam에서 무료 데모 플레이",
+    "officialDiscord": "공식 Discord",
+    "officialYoutube": "공식 YouTube",
+    "officialX": "공식 X (Twitter)",
+    "steamCommunity": "Steam 커뮤니티 허브",
+    "beginnerGuide": "초보자 가이드",
+    "weaponGuides": "무기 가이드",
+    "mechanicsGuides": "메커니즘 가이드",
+    "demoGuide": "데모 가이드",
+    "privacyPolicy": "개인정보 처리방침",
+    "termsOfService": "이용약관"
+  },
+  "legal": {
+    "aboutTitle": "사이트 소개",
+    "aboutIntro": "ReBlade Wiki는 무기 빌드, 칩과 증강, 전투 전략, 적, 데모 정보, 필수 게임 지식을 다루는 독립 팬 제작 가이드 허브입니다. 신규 플레이어와 베테랑 모두에게 도움이 됩니다.",
+    "aboutGame": "ReBlade: The Death Spiral은 ChillyRoom이 개발하고 Spiral Up Games가 퍼블리싱하는 사이버펑크 액션 로그라이크입니다. 이 사이트는 두 회사와 제휴하거나 승인받지 않았습니다.",
+    "aboutContact": "질문이나 수정 사항은 support@reblade.top으로 보내 주세요.",
+    "privacyTitle": "개인정보 처리방침",
+    "privacyIntro": "이 팬 위키는 ReBlade: The Death Spiral의 정보성 게임 가이드를 제공합니다. Steam 계정 자격 증명, 비밀번호, 비공개 결제 정보를 요구하지 않습니다.",
+    "privacyData": "기본 분석, 광고, 호스팅 제공업체는 기기 유형, 브라우저, 대략적인 지역, 방문 페이지와 같은 표준 기술 정보를 처리할 수 있습니다.",
+    "privacyLinks": "외부 링크는 Steam, Discord, YouTube, X, TikTok, Instagram 또는 커뮤니티 도구로 이어질 수 있습니다. 해당 서비스에는 각자의 개인정보 처리방침이 적용됩니다.",
+    "privacyContact": "개인정보 관련 문의는 support@reblade.top으로 보내 주세요.",
+    "termsTitle": "이용약관",
+    "termsIntro": "이 사이트는 독립 팬 제작 가이드 허브입니다. 콘텐츠는 정보 제공 및 오락 목적으로만 제공됩니다.",
+    "termsChanges": "게임 시스템, 데모 콘텐츠, 빌드, 업데이트 정보는 예고 없이 변경될 수 있습니다. 중요한 정보는 게임 내 또는 공식 채널에서 확인하세요.",
+    "termsUse": "이 사이트를 이용함으로써 부당한 사용, 무단 접근 시도, 이 팬 위키를 ChillyRoom 또는 Spiral Up Games의 공식 자산으로 표시하는 행위를 하지 않기로 동의합니다.",
+    "copyrightTitle": "저작권",
+    "copyrightOwners": "ReBlade: The Death Spiral, 로고, 아트워크, 트레일러 및 관련 미디어는 ChillyRoom, Spiral Up Games 및 각 권리자에게 귀속됩니다.",
+    "copyrightFan": "ReBlade Wiki는 독립적인 비공식 팬 가이드 허브입니다. 게임 이름과 상표는 식별 및 해설 목적으로만 사용됩니다.",
+    "copyrightContact": "여기에 표시된 콘텐츠의 권리를 보유하고 있으며 우려 사항이 있으면 support@reblade.top으로 연락해 주세요.",
+    "notFoundTitle": "페이지를 찾을 수 없습니다",
+    "notFoundDescription": "찾고 계신 가이드가 이동되었거나 아직 추가되지 않았을 수 있습니다.",
+    "browseGuides": "가이드 보기"
+  }
+}

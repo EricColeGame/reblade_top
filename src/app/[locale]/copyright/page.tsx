@@ -1,11 +1,21 @@
+import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import { LegalPage } from "@/components/legal-page";
 
-export default function CopyrightPage() {
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "legal" });
+  return { title: t("copyrightTitle"), description: t("copyrightOwners") };
+}
+
+export default async function CopyrightPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "legal" });
   return (
-    <LegalPage title="Copyright">
-      <p>ReBlade: The Death Spiral, its logos, artwork, trailers, and related media belong to ChillyRoom, Spiral Up Games, and their respective owners.</p>
-      <p>ReBlade Wiki is an independent, non-official fan guide hub. Game names and trademarks are used for identification and commentary only.</p>
-      <p>If you own rights to content displayed here and have a concern, contact support@reblade.top for review.</p>
+    <LegalPage title={t("copyrightTitle")}>
+      <p>{t("copyrightOwners")}</p>
+      <p>{t("copyrightFan")}</p>
+      <p>{t("copyrightContact")}</p>
     </LegalPage>
   );
 }

@@ -1,11 +1,21 @@
+import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import { LegalPage } from "@/components/legal-page";
 
-export default function AboutPage() {
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "legal" });
+  return { title: t("aboutTitle"), description: t("aboutIntro") };
+}
+
+export default async function AboutPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "legal" });
   return (
-    <LegalPage title="About">
-      <p>ReBlade Wiki is an independent fan-built guide hub covering weapon builds, chips and augments, combat strategies, enemies, demo details, and essential game knowledge for new and veteran players alike.</p>
-      <p>ReBlade: The Death Spiral is a cyberpunk action roguelike developed by ChillyRoom and published by Spiral Up Games. This site is not affiliated with or endorsed by either company.</p>
-      <p>Questions or corrections can be sent to support@reblade.top.</p>
+    <LegalPage title={t("aboutTitle")}>
+      <p>{t("aboutIntro")}</p>
+      <p>{t("aboutGame")}</p>
+      <p>{t("aboutContact")}</p>
     </LegalPage>
   );
 }

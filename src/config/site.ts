@@ -38,6 +38,6 @@ export const siteConfig: SiteConfig = {
     tiktok: "https://www.tiktok.com/@rebladegame",
     instagram: "https://www.instagram.com/rebladegame/",
   },
-  locales: ["en", "es", "pt", "de", "fr"],
+  locales: ["en", "ja", "ko", "pt-BR"],
   defaultLocale: "en",
 };

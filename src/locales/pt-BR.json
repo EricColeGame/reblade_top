@@ -1,1 +1,486 @@
-{}
+{
+  "site": {
+    "name": "ReBlade Wiki",
+    "shortName": "ReBlade",
+    "tagline": "Builds, armas, chips e guias de combate",
+    "description": "Domine ReBlade: The Death Spiral com builds de armas, combinações de chips e aprimoramentos, estratégias de combate, guias de inimigos, detalhes da demo e as últimas notícias do jogo.",
+    "legalNotice": "Fan wiki não oficial. ReBlade: The Death Spiral e marcas relacionadas pertencem à ChillyRoom e à Spiral Up Games."
+  },
+  "nav": {
+    "menu": "Menu",
+    "toggleTheme": "Alternar tema",
+    "guide": "Guia",
+    "mechanics": "Mecânicas",
+    "weapons": "Armas",
+    "demo": "Demo",
+    "release": "Lançamento",
+    "community": "Comunidade"
+  },
+  "home": {
+    "meta": {
+      "title": "ReBlade Wiki - Builds, armas e guia para iniciantes",
+      "description": "Explore ReBlade: The Death Spiral com guias para iniciantes, builds de armas, chips e aprimoramentos, dicas de combate, estratégias contra inimigos, detalhes da demo e atualizações oficiais."
+    },
+    "hero": {
+      "eyebrow": "Roguelike de ação cyberpunk",
+      "title": "ReBlade Wiki",
+      "description": "Domine ReBlade: The Death Spiral com builds de armas, combinações de chips e aprimoramentos, estratégias de combate, guias de inimigos, detalhes da demo e as últimas notícias do jogo.",
+      "stats": [
+        "Demo lançada em 19 de outubro de 2026",
+        "81% de avaliações positivas da demo",
+        "4 idiomas na demo",
+        "Lançamento completo: a definir"
+      ],
+      "primaryCta": "Guia para iniciantes",
+      "secondaryCta": "Jogar demo grátis no Steam",
+      "tertiaryCta": "Central da comunidade Steam",
+      "videoLabel": "Trailer oficial"
+    },
+    "updates": {
+      "title": "Últimas atualizações",
+      "browse": "Ver todos os guias",
+      "viewAll": "Ver tudo"
+    },
+    "start": {
+      "eyebrow": "Comece aqui",
+      "title": "Sua jornada em ReBlade",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guia para iniciantes",
+          "description": "Aprenda o ciclo de combate baseado em parry, as prioridades de upgrade no início e os hábitos que mantêm suas primeiras runs avançando."
+        },
+        {
+          "number": "2",
+          "title": "Tempo de parry",
+          "description": "Leia a preparação dos inimigos, rebata os tiros dos blasters contra os atacantes e transforme defesa em uma janela limpa de dano."
+        },
+        {
+          "number": "3",
+          "title": "Builds de armas",
+          "description": "Compare a espada padrão, as lâminas duplas e o conjunto machado e escudo, depois molde cada run com chips e aprimoramentos."
+        },
+        {
+          "number": "4",
+          "title": "Ciclo da morte",
+          "description": "Use desbloqueios permanentes de armas e chips para deixar cada reinício em ReBlade mais forte que o anterior."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Páginas populares",
+      "title": "Guias em alta de ReBlade",
+      "quickLinks": [
+        "Guia para iniciantes",
+        "Tempo de parry",
+        "Builds de armas",
+        "Demo lançada"
+      ],
+      "cards": [
+        {
+          "badge": "Iniciante",
+          "title": "Guia para iniciantes de ReBlade",
+          "description": "Comece pelo tempo de combate, desbloqueios de armas, prioridades de upgrade e hábitos de recursos que continuam nos ciclos seguintes.",
+          "href": "/guide/reblade-beginner-guide"
+        },
+        {
+          "badge": "Combate",
+          "title": "Guia de parry de ReBlade",
+          "description": "Aprenda o tempo de aparo, a preparação dos inimigos, o reflexo de blasters e os conjuntos de armas feitos para defesa reativa.",
+          "href": "/guide/reblade-parry-guide"
+        },
+        {
+          "badge": "Mecânicas",
+          "title": "Mecânicas de combate de ReBlade",
+          "description": "Entenda o ciclo de combate isométrico, parries precisos, criação de builds e progressão permanente de chips.",
+          "href": "/mechanics/reblade-combat-mechanics"
+        },
+        {
+          "badge": "Progressão",
+          "title": "Sistema de progressão de ReBlade",
+          "description": "Veja o que reinicia após a morte, quais desbloqueios de armas e chips cibernéticos permanecem e como as builds tomam forma.",
+          "href": "/mechanics/reblade-progression-system"
+        },
+        {
+          "badge": "Demo",
+          "title": "Demo de ReBlade",
+          "description": "Baixe a demo gratuita da Steam Next Fest e saiba o que a versão jogável inclui.",
+          "href": "/demo/reblade-demo-release"
+        },
+        {
+          "badge": "Lançamento",
+          "title": "Lançamento de ReBlade no PC",
+          "description": "Acompanhe a data de lançamento ainda indefinida, o acesso à demo, os requisitos de sistema e os detalhes confirmados para PC.",
+          "href": "/release/reblade-pc-release"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "O que é ReBlade?",
+      "paragraphs": [
+        "ReBlade: The Death Spiral é um roguelike de ação cyberpunk da ChillyRoom, publicado pela Spiral Up Games. Você controla um Sintético condenado, preso em reinícios sem fim, cortando criaturas mecânicas em uma megacidade neon inspirada na mitologia chinesa. Armas, chips e aprimoramentos se combinam em uma nova build a cada run, enquanto desbloqueios permanentes levam o progresso adiante.",
+        "O combate gira em torno de timing e controle. Leia a preparação dos inimigos, faça parry nos golpes, redirecione os tiros dos blasters e escolha uma rota por cada camada da cidade antes que os distritos disponíveis desapareçam. O ReBlade Wiki acompanha a demo, os requisitos de sistema, os sistemas de armas e chips, os encontros com chefes e a história por trás do ciclo."
+      ],
+      "stats": [
+        {
+          "label": "Desenvolvedora",
+          "value": "ChillyRoom"
+        },
+        {
+          "label": "Publicadora",
+          "value": "Spiral Up Games"
+        },
+        {
+          "label": "Plataforma",
+          "value": "PC (Steam)"
+        },
+        {
+          "label": "Gênero",
+          "value": "Roguelike de ação cyberpunk"
+        },
+        {
+          "label": "Demo",
+          "value": "19 de outubro de 2026"
+        },
+        {
+          "label": "Lançamento completo",
+          "value": "A definir"
+        },
+        {
+          "label": "Idiomas",
+          "value": "4"
+        }
+      ],
+      "cta": "Explorar guias de ReBlade"
+    },
+    "explore": {
+      "title": "Explore o ReBlade Wiki",
+      "description": "Oito hubs dedicados a ReBlade: The Death Spiral, cobrindo timing de combate, armas, chips, chefes, história, atualizações da demo e requisitos para PC.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Guia para iniciantes de ReBlade",
+          "description": "Aprenda as prioridades da primeira hora em ReBlade: leia a preparação dos inimigos, escolha uma arma e invista os upgrades iniciais em sobrevivência.",
+          "href": "/guide/reblade-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Observe a preparação de cada inimigo antes de atacar; defesa deliberada é o caminho mais rápido para aprender uma luta."
+            },
+            {
+              "label": "2",
+              "detail": "Escolha uma arma cedo e aprenda seu alcance, recuperação e reposicionamento após o parry antes de variar o arsenal."
+            },
+            {
+              "label": "3",
+              "detail": "Aparre ataques previsíveis e mantenha uma esquiva disponível em salas cheias, onde preparações sobrepostas escondem o próximo golpe."
+            },
+            {
+              "label": "4",
+              "detail": "Gaste os upgrades iniciais em sobrevivência e adicione dano quando conseguir ler os encontros da camada atual."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Armas e builds de ReBlade",
+          "description": "Compare os conjuntos de armas de ReBlade e veja como chips, aprimoramentos e vantagens de equipamento transformam uma run em uma build focada.",
+          "href": "/mechanics/reblade-combat-mechanics",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Espada",
+              "detail": "Velocidade e força equilibradas fazem da espada padrão o ponto de partida mais limpo para aprender o tempo de parry."
+            },
+            {
+              "label": "Lâminas duplas",
+              "detail": "Golpes rápidos e de baixo compromisso combinam com aparos reativos e jogadores agressivos que fazem parry no meio do combo."
+            },
+            {
+              "label": "Machado",
+              "detail": "O conjunto mais pesado de machado e escudo troca velocidade por alcance e impacto, recompensando paciência após um aparo limpo."
+            },
+            {
+              "label": "Chips",
+              "detail": "Modificadores elementais e de recuperação podem passar entre peças de equipamento para fortalecer uma arma encontrada durante a run."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Guia de combate de ReBlade",
+          "description": "Construa um ritmo de combate mais limpo em ReBlade com preparação dos inimigos, tempo de aparo, reflexo de blasters e reposicionamento seguro.",
+          "href": "/guide/reblade-parry-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Observe o ombro, a postura e o brilho que antecedem o golpe, em vez de reagir à arma no impacto."
+            },
+            {
+              "label": "2",
+              "detail": "Aparre golpes previsíveis no ritmo; um aparo limpo abre a janela de dano que você quer."
+            },
+            {
+              "label": "3",
+              "detail": "Rebata os tiros dos blasters contra a sala e reposicione antes que o próximo atirador dispare."
+            },
+            {
+              "label": "4",
+              "detail": "Use esquivas e espaçamento quando o ruído visual tornar o próximo ataque ilegível, depois volte atrás de um parry."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Inimigos e chefes de ReBlade",
+          "description": "Estude os inimigos mecânicos de ReBlade por prioridade de ameaça, de combos de chefes a drones, brutamontes e blasters à distância.",
+          "href": "/guide/reblade-parry-guide",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Combos de chefes — aprenda o golpe final de uma sequência longa e apara o remate."
+            },
+            {
+              "label": "A",
+              "detail": "Blasters à distância — reflita os tiros nos inimigos próximos antes de encurtar a distância."
+            },
+            {
+              "label": "B",
+              "detail": "Brutamontes — espere a preparação ampla, apara o golpe pesado e contra-ataque."
+            },
+            {
+              "label": "C",
+              "detail": "Drones mecânicos — mantenha posição e apara suas estocadas curtas e irregulares."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Chips e aprimoramentos de ReBlade",
+          "description": "Veja como chips e aprimoramentos de ReBlade adicionam dano elemental, recuperação e flexibilidade de equipamento a cada build de arma.",
+          "href": "/mechanics/reblade-progression-system",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Elemental",
+              "detail": "Amplifique o dano elemental para que aparos limpos e golpes de arma causem mais punição."
+            },
+            {
+              "label": "Recuperação",
+              "detail": "Aumente a recuperação ou cura para sobreviver a um aparo mal cronometrado e continuar aprendendo o padrão."
+            },
+            {
+              "label": "Troca",
+              "detail": "Mova certos buffs e vantagens entre peças de equipamento para fortalecer uma arma encontrada no meio da run."
+            },
+            {
+              "label": "Build",
+              "detail": "Combine armas, chips e aprimoramentos em uma nova configuração de ReBlade a cada ciclo."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "História e lore de ReBlade",
+          "description": "Acompanhe a história de ReBlade por sua cidade cibermítica, o protagonista Sintético condenado, aliados e o ciclo interminável.",
+          "href": "/mechanics/reblade-cyberpunk-gameplay",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Cenário",
+              "detail": "Uma megacidade neon governada por gangues ciborgues e senhores da guerra reimaginados como figuras da mitologia chinesa."
+            },
+            {
+              "label": "Sintético",
+              "detail": "Um androide condenado à destruição e preso em um ciclo interminável de reinício."
+            },
+            {
+              "label": "Aliados",
+              "detail": "Encontre aliados entre runs, troque os recursos que descobrir e amplie suas opções."
+            },
+            {
+              "label": "Verdade",
+              "detail": "Cada ciclo aproxima você de quebrar o loop e descobrir as origens do Sintético."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Data de lançamento e atualizações de ReBlade",
+          "description": "Acompanhe a demo de ReBlade, a janela da Steam Next Fest, o status do lançamento completo e o caminho das atualizações oficiais.",
+          "href": "/release/reblade-pc-release",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Demo disponível",
+              "detail": "A demo gratuita de ReBlade foi lançada no Steam em 19 de outubro de 2026."
+            },
+            {
+              "label": "Next Fest",
+              "detail": "A demo chegou para a Steam Next Fest e está disponível de 19 de outubro a 10 de novembro."
+            },
+            {
+              "label": "Jogo completo",
+              "detail": "A Steam lista a data de lançamento do jogo completo como a definir."
+            },
+            {
+              "label": "Lista de desejos",
+              "detail": "Adicione ReBlade à lista de desejos na Steam para receber avisos de lançamento e atualizações da demo."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Requisitos de sistema de ReBlade",
+          "description": "Compare as especificações mínimas e recomendadas de PC publicadas para ReBlade: The Death Spiral.",
+          "href": "/release/reblade-pc-release",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "OS",
+              "detail": "Mínimo: Windows 10 64 bits; recomendado: Windows 11 64 bits."
+            },
+            {
+              "label": "CPU",
+              "detail": "Mínimo: Intel Core i5-9400 ou AMD Ryzen 5 5600; recomendado: Intel Core i5-12400 ou AMD Ryzen 5 8600."
+            },
+            {
+              "label": "RAM",
+              "detail": "Mínimo: 16 GB; recomendado: 32 GB."
+            },
+            {
+              "label": "GPU",
+              "detail": "Mínimo: NVIDIA RTX 2060 ou AMD RX 5600 XT; recomendado: NVIDIA RTX 3060 ou AMD RX 6600 XT."
+            },
+            {
+              "label": "Armazenamento",
+              "detail": "25 GB de espaço disponível tanto no mínimo quanto no recomendado."
+            },
+            {
+              "label": "DirectX",
+              "detail": "Versão 11 no mínimo; versão 12 recomendada."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Perguntas frequentes sobre ReBlade",
+      "description": "Respostas diretas sobre ReBlade: The Death Spiral, sua demo, combate e progressão.",
+      "items": [
+        {
+          "question": "O que é ReBlade: The Death Spiral?",
+          "answer": "ReBlade: The Death Spiral é um roguelike de ação cyberpunk da ChillyRoom, publicado pela Spiral Up Games. Você controla um Sintético condenado preso em reinícios sem fim, combinando armas, chips e aprimoramentos para enfrentar criaturas mecânicas em uma cidade inspirada na mitologia chinesa."
+        },
+        {
+          "question": "Existe uma demo gratuita de ReBlade?",
+          "answer": "Sim. A demo gratuita de ReBlade foi lançada no Steam em 19 de outubro de 2026 para a Steam Next Fest. A data de lançamento do jogo completo está listada como a definir."
+        },
+        {
+          "question": "Como funciona o combate em ReBlade?",
+          "answer": "O combate de ReBlade gira em torno de timing e controle. Leia a preparação dos inimigos, faça parry nos ataques, rebata os tiros dos blasters contra os atacantes e use esquivas ou espaçamento quando a sala ficar cheia demais para ler."
+        },
+        {
+          "question": "O que passa de uma run para outra em ReBlade?",
+          "answer": "Uma run de ReBlade reinicia armas e aprimoramentos temporários, enquanto desbloqueios permanentes de armas e chips cibernéticos continuam. O conhecimento do jogador sobre padrões inimigos e tempo de parry continua útil em todos os ciclos."
+        },
+        {
+          "question": "Em quais plataformas ReBlade está disponível?",
+          "answer": "ReBlade: The Death Spiral está disponível como demo gratuita para Windows PC via Steam. O jogo completo está listado para PC via Steam, com data de lançamento ainda a definir."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Pronto para dominar ReBlade: The Death Spiral?",
+      "description": "Explore builds de armas, combinações de chips e aprimoramentos, estratégias de combate e dicas da demo em nosso fan wiki gratuito e atualizado.",
+      "primary": "Ler o guia para iniciantes",
+      "secondary": "Jogar demo grátis no Steam"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Guia de ReBlade: dicas para iniciantes, combate e progressão",
+    "overviewDescription": "Comece sua run em ReBlade: The Death Spiral com dicas para iniciantes, tempo de parry, fundamentos de combate, conquistas, chefes secretos e dicas práticas de progressão."
+  },
+  "mechanics": {
+    "overviewTitle": "Mecânicas de ReBlade: parry, progressão e sistemas roguelike",
+    "overviewDescription": "Entenda como o combate baseado em parry, os upgrades de armas, os efeitos de Despertar, a progressão permanente e os ciclos de morte se encaixam."
+  },
+  "weapons": {
+    "overviewTitle": "Armas de ReBlade: builds, upgrades e melhores lâminas",
+    "overviewDescription": "Compare builds de armas, upgrades de espada, escolhas de Despertar, caminhos de evolução e loadouts para chefes de raid e runs repetidas."
+  },
+  "demo": {
+    "overviewTitle": "Demo de ReBlade: download, gameplay e Steam Next Fest",
+    "overviewDescription": "Descubra o que a demo gratuita de ReBlade inclui, como baixá-la, o que o gameplay cobre e o que a versão da Next Fest adiciona."
+  },
+  "release": {
+    "overviewTitle": "Lançamento de ReBlade: data, plataformas e atualizações",
+    "overviewDescription": "Acompanhe os detalhes de lançamento de ReBlade: The Death Spiral no Steam, PC, PS5 e Xbox, incluindo plataformas confirmadas e status do lançamento."
+  },
+  "community": {
+    "overviewTitle": "Comunidade de ReBlade: trailers, Reddit e reação dos jogadores",
+    "overviewDescription": "Assista aos trailers de ReBlade, acompanhe as discussões no Reddit e veja a reação da comunidade ao roguelike de ação cyberpunk."
+  },
+  "shared": {
+    "wikiNavigation": "Navegação do wiki",
+    "activeCodes": "Códigos ativos",
+    "updated": "Atualizado",
+    "viewAllCodes": "Ver todos os códigos",
+    "playOnRoblox": "Jogar no Roblox",
+    "inThisSection": "Nesta seção",
+    "tableOfContents": "Índice",
+    "nextSteps": "Próximos passos",
+    "needHelp": "Precisa de ajuda?",
+    "relatedReading": "Leitura relacionada",
+    "relatedGuides": "Guias relacionados",
+    "readMore": "Leia mais",
+    "officialMedia": "Mídia oficial",
+    "home": "Início",
+    "noGuidesAvailable": "Nenhum guia disponível ainda. Volte em breve!"
+  },
+  "footer": {
+    "aboutTitle": "ReBlade Wiki",
+    "about": "ReBlade Wiki é um hub independente feito por fãs, com builds de armas, chips e aprimoramentos, estratégias de combate, inimigos, detalhes da demo e conhecimentos essenciais do jogo para novos jogadores e veteranos.",
+    "quickLinks": "Links rápidos",
+    "guides": "Guias",
+    "legal": "Jurídico",
+    "copyright": "2026 ReBlade Wiki. Não afiliado à ChillyRoom ou à Spiral Up Games.",
+    "description": "Guia de roguelike de ação cyberpunk. Builds, armas, chips, aprimoramentos e estratégias de combate.",
+    "playGame": "Jogar demo grátis no Steam",
+    "officialDiscord": "Discord oficial",
+    "officialYoutube": "YouTube oficial",
+    "officialX": "X oficial (Twitter)",
+    "steamCommunity": "Central da comunidade Steam",
+    "beginnerGuide": "Guia para iniciantes",
+    "weaponGuides": "Guias de armas",
+    "mechanicsGuides": "Guias de mecânicas",
+    "demoGuide": "Guia da demo",
+    "privacyPolicy": "Política de Privacidade",
+    "termsOfService": "Termos de Serviço"
+  },
+  "legal": {
+    "aboutTitle": "Sobre",
+    "aboutIntro": "ReBlade Wiki é um hub independente feito por fãs, com builds de armas, chips e aprimoramentos, estratégias de combate, inimigos, detalhes da demo e conhecimentos essenciais do jogo para novos jogadores e veteranos.",
+    "aboutGame": "ReBlade: The Death Spiral é um roguelike de ação cyberpunk desenvolvido pela ChillyRoom e publicado pela Spiral Up Games. Este site não é afiliado nem endossado por nenhuma das empresas.",
+    "aboutContact": "Dúvidas ou correções podem ser enviadas para support@reblade.top.",
+    "privacyTitle": "Política de Privacidade",
+    "privacyIntro": "Este fan wiki fornece guias informativos sobre ReBlade: The Death Spiral. Não solicitamos credenciais de conta Steam, senhas ou informações privadas de pagamento.",
+    "privacyData": "Provedores de análise, publicidade e hospedagem podem processar informações técnicas padrão, como tipo de dispositivo, navegador, região aproximada e páginas visitadas.",
+    "privacyLinks": "Links externos podem levar ao Steam, Discord, YouTube, X, TikTok, Instagram ou ferramentas da comunidade. Esses serviços são regidos por suas próprias políticas de privacidade.",
+    "privacyContact": "Dúvidas sobre privacidade podem ser enviadas para support@reblade.top.",
+    "termsTitle": "Termos de Serviço",
+    "termsIntro": "Este site é um hub independente de guias feito por fãs. O conteúdo é fornecido apenas para fins informativos e de entretenimento.",
+    "termsChanges": "Sistemas do jogo, conteúdo da demo, builds e detalhes de atualização podem mudar sem aviso. Sempre verifique informações importantes no jogo ou pelos canais oficiais.",
+    "termsUse": "Ao usar este site, você concorda em não abusar dele, tentar acesso não autorizado ou apresentar este fan wiki como propriedade oficial da ChillyRoom ou da Spiral Up Games.",
+    "copyrightTitle": "Direitos Autorais",
+    "copyrightOwners": "ReBlade: The Death Spiral, seus logotipos, artes, trailers e mídias relacionadas pertencem à ChillyRoom, à Spiral Up Games e aos respectivos proprietários.",
+    "copyrightFan": "ReBlade Wiki é um hub independente e não oficial de guias feitos por fãs. Nomes de jogos e marcas são usados apenas para identificação e comentário.",
+    "copyrightContact": "Se você detém direitos sobre conteúdo exibido aqui e tem alguma preocupação, entre em contato pelo support@reblade.top para análise.",
+    "notFoundTitle": "Página não encontrada",
+    "notFoundDescription": "O guia que você procura pode ter sido movido ou ainda não foi adicionado.",
+    "browseGuides": "Ver guias"
+  }
+}

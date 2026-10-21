@@ -20,12 +20,13 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
+  const messages = (await getMessages({ locale })) as { site: { name: string; description: string } };
   const image = `${siteUrl}/images/hero.webp`;
   const adsenseId = process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID;
   return {
     metadataBase: new URL(siteUrl),
-    title: { default: siteConfig.name, template: `%s | ${siteConfig.shortName}` },
-    description: siteConfig.description,
+    title: { default: messages.site.name, template: `%s | ${siteConfig.shortName}` },
+    description: messages.site.description,
     keywords: ["ReBlade", "ReBlade The Death Spiral", "ReBlade Wiki", "weapon builds", "chips", "augments", "combat guide"],
     manifest: "/manifest.json",
     icons: {
@@ -36,8 +37,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       ],
       apple: "/apple-touch-icon.png",
     },
-    openGraph: { type: "website", locale, url: siteUrl, siteName: siteConfig.name, title: siteConfig.name, description: siteConfig.description, images: [{ url: image, width: 1920, height: 1080, alt: "ReBlade: The Death Spiral" }] },
-    twitter: { card: "summary_large_image", title: siteConfig.name, description: siteConfig.description, images: [image] },
+    openGraph: { type: "website", locale, url: siteUrl, siteName: messages.site.name, title: messages.site.name, description: messages.site.description, images: [{ url: image, width: 1920, height: 1080, alt: "ReBlade: The Death Spiral" }] },
+    twitter: { card: "summary_large_image", title: messages.site.name, description: messages.site.description, images: [image] },
     ...(adsenseId ? { other: { "google-adsense-account": adsenseId } } : {}),
   };
 }
