@@ -1,13 +1,26 @@
 {
-  "name": "VV: ULTIMATUM Wiki",
-  "short_name": "VV Ultimatum",
-  "description": "Fan-made VV: ULTIMATUM Roblox wiki with codes, bosses, builds, races and guides.",
-  "start_url": "/",
+  "id": "/",
+  "name": "ReBlade Wiki",
+  "short_name": "ReBlade",
+  "description": "Fan-made ReBlade: The Death Spiral wiki with weapon builds, chips, augments, combat guides, demo details, and game news.",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "/en",
+  "scope": "/",
   "display": "standalone",
-  "background_color": "#0d0d0d",
-  "theme_color": "#9f4623",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#101216",
+  "theme_color": "#E82D4F",
+  "categories": ["games", "entertainment"],
   "icons": [
-    { "src": "/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "/android-chrome-512x512.png", "sizes": "512x512", "type": "image/png" }
+    { "src": "/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/android-chrome-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/android-chrome-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Beginner Guides", "short_name": "Guides", "url": "/en/guide" },
+    { "name": "Codes", "short_name": "Codes", "url": "/en/codes" },
+    { "name": "Tier List", "short_name": "Tier List", "url": "/en/tier-list" }
   ]
 }

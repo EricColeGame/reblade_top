@@ -1,11 +1,12 @@
 import type { MetadataRoute } from "next";
+import { siteConfig } from "@/config/site";
 import { getAllContentPaths } from "@/lib/content";
 import { routing } from "@/i18n/routing";
 
 export const dynamic = "force-static";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://vvultimatum.sbs";
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || siteConfig.url;
 
   // Static paths that always exist
   const staticPaths = ["/", "/races", "/bosses", "/codes", "/guide", "/tier-list", "/maps", "/skills", "/privacy-policy", "/terms-of-service", "/copyright", "/about"];

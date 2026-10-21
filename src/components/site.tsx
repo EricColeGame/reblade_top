@@ -19,11 +19,9 @@ export async function SiteHeader({ locale }: { locale: string }) {
   const t = await getTranslations({ locale, namespace: "nav" });
   const header = (
     <div className="flex items-center justify-between gap-4">
-      <Link href={localizeHref("/", locale)} className="flex items-center gap-3">
-        <div className="relative h-9 w-9 overflow-hidden rounded-xl border border-border bg-muted shadow-sm">
-          <img src="/images/logo.png" alt={siteConfig.name} className="h-full w-full object-cover" />
-        </div>
-        <span className="text-sm font-bold tracking-wide text-foreground">{siteConfig.name}</span>
+      <Link href={localizeHref("/", locale)} className="flex items-center gap-3" aria-label={siteConfig.name}>
+        <span className="grid h-9 w-9 place-items-center rounded-xl border border-[hsl(var(--nav-theme)/0.5)] bg-gradient-to-br from-zinc-950 to-[hsl(var(--nav-theme))] text-lg font-black text-white shadow-sm" aria-hidden="true">{siteConfig.logoText}</span>
+        <span className="text-sm font-bold tracking-wide text-foreground">{siteConfig.shortName}</span>
       </Link>
       <nav className="hidden items-center gap-1 md:flex">
         {NAVIGATION_CONFIG.map((item) => (
@@ -75,7 +73,7 @@ export function TrailerCard({ videoId }: { videoId: string }) {
   return (
     <div className="group relative cursor-pointer overflow-hidden rounded-2xl border border-border shadow-lg transition-all duration-200">
       <div className="relative aspect-video w-full">
-        <img src={videoId ? `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg` : "/images/hero.webp"} alt={siteConfig.name} className="size-full object-cover transition-all duration-200 group-hover:brightness-80" onError={(e) => { (e.target as HTMLImageElement).src = "/images/hero.webp"; }} />
+        <img src={videoId ? "/images/hero-trailer-thumbnail.jpg" : "/images/hero.webp"} alt="ReBlade: The Death Spiral Official Trailer" className="size-full object-cover transition-all duration-200 group-hover:brightness-80" onError={(e) => { (e.target as HTMLImageElement).src = "/images/hero.webp"; }} />
       </div>
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="flex size-20 items-center justify-center rounded-full bg-primary/10 backdrop-blur-md transition-transform duration-200 group-hover:scale-105 sm:size-24">
