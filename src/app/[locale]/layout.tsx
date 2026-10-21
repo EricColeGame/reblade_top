@@ -26,6 +26,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     metadataBase: new URL(siteUrl),
     title: { default: siteConfig.name, template: `%s | ${siteConfig.shortName}` },
     description: siteConfig.description,
+    keywords: ["ReBlade", "ReBlade The Death Spiral", "ReBlade Wiki", "weapon builds", "chips", "augments", "combat guide"],
     manifest: "/manifest.json",
     icons: {
       icon: [
@@ -35,8 +36,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       ],
       apple: "/apple-touch-icon.png",
     },
-    openGraph: { type: "website", locale, url: siteUrl, siteName: siteConfig.name, images: [{ url: image }] },
-    twitter: { card: "summary_large_image", images: [image] },
+    openGraph: { type: "website", locale, url: siteUrl, siteName: siteConfig.name, title: siteConfig.name, description: siteConfig.description, images: [{ url: image, width: 1920, height: 1080, alt: "ReBlade: The Death Spiral" }] },
+    twitter: { card: "summary_large_image", title: siteConfig.name, description: siteConfig.description, images: [image] },
     ...(adsenseId ? { other: { "google-adsense-account": adsenseId } } : {}),
   };
 }
@@ -50,9 +51,11 @@ export default async function LocaleLayout({ children, params }: { children: Rea
     "@context": "https://schema.org",
     "@type": "Organization",
     name: siteConfig.name,
+    alternateName: siteConfig.shortName,
     url: siteUrl,
-    logo: `${siteUrl}/android-chrome-512x512.png`,
-    image: `${siteUrl}/images/hero.webp`,
+    "logo": `${siteUrl}/android-chrome-512x512.png`,
+    "image": `${siteUrl}/images/hero.webp`,
+    sameAs: [siteConfig.social?.discord, siteConfig.social?.youtube, siteConfig.social?.twitter, siteConfig.social?.tiktok, siteConfig.social?.instagram].filter(Boolean),
   };
 
   const adsenseId = process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID;
