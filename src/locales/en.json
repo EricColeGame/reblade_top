@@ -8,7 +8,13 @@
   },
   "nav": {
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "guide": "Guide",
+    "mechanics": "Mechanics",
+    "weapons": "Weapons",
+    "demo": "Demo",
+    "release": "Release",
+    "community": "Community"
   },
   "home": {
     "meta": {
@@ -394,7 +400,30 @@
       "secondary": "Play Free Demo on Steam"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "ReBlade Guide: Beginner Tips, Combat, and Progression",
+    "overviewDescription": "Start your ReBlade: The Death Spiral run with beginner advice, parry timing, combat fundamentals, achievements, hidden bosses, and practical progression tips."
+  },
+  "mechanics": {
+    "overviewTitle": "ReBlade Mechanics: Parry, Progression, and Roguelike Systems",
+    "overviewDescription": "Understand how ReBlade's parry-first combat, weapon upgrades, Awakening effects, permanent progression, and death loops fit together."
+  },
+  "weapons": {
+    "overviewTitle": "ReBlade Weapons: Builds, Upgrades, and Best Blades",
+    "overviewDescription": "Compare ReBlade weapon builds, sword upgrades, Awakening choices, evolution paths, and loadouts for raid bosses and repeat runs."
+  },
+  "demo": {
+    "overviewTitle": "ReBlade Demo: Download, Gameplay, and Steam Next Fest",
+    "overviewDescription": "Find out what the free ReBlade Steam demo includes, how to download it, what its gameplay covers, and what the Next Fest build adds."
+  },
+  "release": {
+    "overviewTitle": "ReBlade Release: Date, Platforms, and Launch Updates",
+    "overviewDescription": "Track ReBlade: The Death Spiral release details across Steam, PC, PS5, and Xbox, including confirmed platforms and launch status."
+  },
+  "community": {
+    "overviewTitle": "ReBlade Community: Trailers, Reddit, and Player Reaction",
+    "overviewDescription": "Watch ReBlade trailers, follow Reddit discussion, and catch up on the community response to the cyberpunk action roguelike."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -426,9 +455,9 @@
     "officialX": "Official X (Twitter)",
     "steamCommunity": "Steam Community Hub",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
+    "weaponGuides": "Weapon Guides",
+    "mechanicsGuides": "Mechanics Guides",
+    "demoGuide": "Demo Guide",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   }
