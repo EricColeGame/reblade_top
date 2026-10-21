@@ -42,288 +42,348 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn the parry-first combat loop, early upgrade priorities, and the habits that keep your first ReBlade runs moving."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Parry Timing",
+          "description": "Read enemy wind-ups, deflect blaster bolts back at attackers, and turn defense into a clean damage window."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Weapon Builds",
+          "description": "Compare the standard sword, twin blades, and axe-and-shield set, then shape each run with chips and augments."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in ReBlade."
+          "title": "Death Loop",
+          "description": "Use permanent weapon and chip unlocks to make every reset in ReBlade stronger than the last."
         }
       ]
     },
     "popular": {
       "eyebrow": "Popular Pages",
-      "title": "Trending Now",
+      "title": "Trending ReBlade Guides",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "Parry Timing",
+        "Weapon Builds",
+        "Demo Release"
       ],
       "cards": [
         {
           "badge": "Beginner",
-          "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "title": "ReBlade Beginner Guide",
+          "description": "Start with combat timing, weapon unlocks, upgrade priorities, and resource habits that carry into later cycles.",
+          "href": "/guide/reblade-beginner-guide"
         },
         {
-          "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
+          "badge": "Combat",
+          "title": "ReBlade Parry Guide",
+          "description": "Learn deflect timing, enemy tells, blaster reflection, and the weapon sets built for reactive defense.",
+          "href": "/guide/reblade-parry-guide"
         },
         {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "badge": "Mechanics",
+          "title": "ReBlade Combat Mechanics",
+          "description": "Understand the isometric combat loop, precision parries, build crafting, and permanent chip progression.",
+          "href": "/mechanics/reblade-combat-mechanics"
         },
         {
-          "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
+          "badge": "Progression",
+          "title": "ReBlade Progression System",
+          "description": "See what resets after death, which weapon and cybernetic chip unlocks persist, and how builds take shape.",
+          "href": "/mechanics/reblade-progression-system"
         },
         {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
+          "badge": "Demo",
+          "title": "ReBlade Demo Release",
+          "description": "Download the free Steam Next Fest demo and learn what the playable build includes.",
+          "href": "/demo/reblade-demo-release"
         },
         {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
-        },
-        {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
-        },
-        {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
-        },
-        {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "badge": "Release",
+          "title": "ReBlade PC Release",
+          "description": "Track the TBA launch date, demo access, system requirements, and confirmed PC details.",
+          "href": "/release/reblade-pc-release"
         }
       ]
     },
     "aboutGame": {
       "title": "What is ReBlade?",
       "paragraphs": [
-        "ReBlade is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "ReBlade: The Death Spiral is a cyberpunk action roguelike from ChillyRoom and Spiral Up Games. You play a condemned Synthetic trapped in endless resets, cutting through mechanical creatures in a neon megacity shaped by Chinese mythology. Weapons, chips, and augments combine into a new build each run, while permanent unlocks carry progress forward.",
+        "Combat is built around timing and control. Read enemy tells, parry incoming strikes, redirect blaster fire, and choose a route through each layer of the city before the available districts disappear. The ReBlade Wiki tracks the demo, system requirements, weapon and chip systems, boss encounters, and the story behind the cycle."
       ],
       "stats": [
         {
           "label": "Developer",
-          "value": "Midnight Continent"
+          "value": "ChillyRoom"
+        },
+        {
+          "label": "Publisher",
+          "value": "Spiral Up Games"
         },
         {
           "label": "Platform",
-          "value": "Roblox"
+          "value": "PC (Steam)"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Cyberpunk Action Roguelike"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Demo",
+          "value": "Oct 19, 2026"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Full Release",
+          "value": "TBA"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
-        },
-        {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Languages",
+          "value": "4"
         }
       ],
-      "cta": "Explore All Guides"
+      "cta": "Explore ReBlade Guides"
     },
     "explore": {
       "title": "Explore ReBlade Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "description": "Eight focused hubs for ReBlade: The Death Spiral, covering combat timing, weapons, chips, bosses, story, demo updates, and PC requirements.",
       "modules": [
         {
           "order": 1,
-          "name": "ReBlade Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/reblade-codes",
-          "displayType": "code-box",
+          "name": "ReBlade Beginner Guide",
+          "description": "Learn the first-hour priorities for ReBlade: read enemy tells, commit to one weapon, and spend early upgrades on survival.",
+          "href": "/guide/reblade-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Watch each enemy's wind-up before committing to a swing; deliberate defense is the fastest way to learn a fight."
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Pick one weapon early and learn its reach, recovery, and parry-ready reset before rotating through the full arsenal."
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Deflect predictable attacks and keep a dodge available for crowded rooms where overlapping wind-ups hide the next hit."
+            },
+            {
+              "label": "4",
+              "detail": "Spend early upgrades on survivability, then add damage once you can read the encounters on the current layer."
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/reblade-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "ReBlade Weapons and Builds",
+          "description": "Compare ReBlade's weapon sets and see how chips, augments, and gear perks turn a run into a focused build.",
+          "href": "/mechanics/reblade-combat-mechanics",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "Sword",
+              "detail": "Balanced speed and power make the standard sword the cleanest starting point for learning parry timing."
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "Twin",
+              "detail": "Fast, low-commitment swings suit reactive deflects and aggressive players who parry mid-combo."
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "Axe",
+              "detail": "The heavier axe-and-shield set trades speed for reach and impact, rewarding patience after a clean deflect."
+            },
+            {
+              "label": "Chips",
+              "detail": "Elemental and recovery modifiers can move between gear pieces to sharpen a weapon found during the run."
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/reblade-tier-list",
-          "displayType": "tier-grid",
+          "name": "ReBlade Combat Guide",
+          "description": "Build a cleaner ReBlade combat rhythm with enemy tells, deflect timing, blaster reflection, and safe resets.",
+          "href": "/guide/reblade-parry-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "1",
+              "detail": "Watch the shoulder, stance, and glow that precede a strike rather than reacting to the weapon at impact."
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "2",
+              "detail": "Meet predictable swings on the beat; a clean deflect opens the damage window you want."
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "3",
+              "detail": "Deflect blaster bolts back into the room, then reposition before the next shooter fires."
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "4",
+              "detail": "Use dodges and spacing when visual noise makes the next attack unreadable, then re-enter behind a parry."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/reblade-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "ReBlade Enemies and Bosses",
+          "description": "Study ReBlade's mechanical enemies by threat priority, from boss chains to drones, bruisers, and ranged blasters.",
+          "href": "/guide/reblade-parry-guide",
+          "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "S",
+              "detail": "Boss chains — learn the final hit of a long string and deflect the ender."
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "A",
+              "detail": "Ranged blasters — reflect bolts into nearby enemies before closing the distance."
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "B",
+              "detail": "Hulking bruisers — wait out the wide wind-up, deflect the heavy swing, then punish."
+            },
+            {
+              "label": "C",
+              "detail": "Machine drones — hold position and deflect their short, jittery jabs."
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/reblade-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "ReBlade Chips and Augments",
+          "description": "See how ReBlade chips and augments add elemental damage, recovery, and gear flexibility to each weapon build.",
+          "href": "/mechanics/reblade-progression-system",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Elemental",
+              "detail": "Amplify elemental damage so clean parries and weapon hits carry more punishment."
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Recovery",
+              "detail": "Boost recovery or healing to survive a mistimed deflect and keep learning the pattern."
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Swap",
+              "detail": "Move certain buffs and perks between gear pieces to strengthen a weapon found mid-run."
+            },
+            {
+              "label": "Build",
+              "detail": "Combine weapons, chips, and augments into a fresh ReBlade setup on every cycle."
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/reblade-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "ReBlade Story and Lore",
+          "description": "Follow the ReBlade story through its cyber-mythic city, condemned Synthetic protagonist, allies, and endless cycle.",
+          "href": "/mechanics/reblade-cyberpunk-gameplay",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Setting",
+              "detail": "A neon megacity ruled by cyborg gangs and warlords reimagined as Chinese mythological figures."
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Synthetic",
+              "detail": "A condemned android marked for destruction and trapped in an endless reset cycle."
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Allies",
+              "detail": "Meet allies between runs, trade the resources you uncover, and expand your options."
+            },
+            {
+              "label": "Truth",
+              "detail": "Each cycle carries you closer to breaking the loop and uncovering the Synthetic's origins."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "ReBlade Release Date and Updates",
+          "description": "Track the ReBlade demo, Steam Next Fest window, full release status, and the latest official update path.",
+          "href": "/release/reblade-pc-release",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Demo Live",
+              "detail": "The free ReBlade demo launched on Steam on October 19, 2026."
+            },
+            {
+              "label": "Next Fest",
+              "detail": "The demo arrived for Steam Next Fest and is available from October 19 to November 10."
+            },
+            {
+              "label": "Full Game",
+              "detail": "Steam lists the full ReBlade release date as To be announced."
+            },
+            {
+              "label": "Wishlist",
+              "detail": "Wishlist ReBlade on Steam for release-date and demo-update notifications."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "ReBlade System Requirements",
+          "description": "Compare the published minimum and recommended PC specifications for ReBlade: The Death Spiral.",
+          "href": "/release/reblade-pc-release",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "OS",
+              "detail": "Windows 10 64-bit minimum; Windows 11 64-bit recommended."
+            },
+            {
+              "label": "CPU",
+              "detail": "Intel Core i5-9400 or AMD Ryzen 5 5600 minimum; Intel Core i5-12400 or AMD Ryzen 5 8600 recommended."
+            },
+            {
+              "label": "RAM",
+              "detail": "16 GB minimum; 32 GB recommended."
+            },
+            {
+              "label": "GPU",
+              "detail": "NVIDIA RTX 2060 or AMD RX 5600 XT minimum; NVIDIA RTX 3060 or AMD RX 6600 XT recommended."
+            },
+            {
+              "label": "Storage",
+              "detail": "25 GB available space for both minimum and recommended."
+            },
+            {
+              "label": "DirectX",
+              "detail": "Version 11 minimum; Version 12 recommended."
             }
           ]
         }
       ]
     },
     "faq": {
-      "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about ReBlade.",
+      "title": "ReBlade Frequently Asked Questions",
+      "description": "Direct answers about ReBlade: The Death Spiral, its demo, combat, and progression.",
       "items": [
         {
-          "question": "What is ReBlade?",
-          "answer": "ReBlade is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "question": "What is ReBlade: The Death Spiral?",
+          "answer": "ReBlade: The Death Spiral is a cyberpunk action roguelike from ChillyRoom and Spiral Up Games. You play a condemned Synthetic trapped in endless resets, combining weapons, chips, and augments to fight mechanical creatures in a city inspired by Chinese mythology."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "Is there a free ReBlade demo?",
+          "answer": "Yes. The free ReBlade demo launched on Steam on October 19, 2026 for Steam Next Fest. The full game release date is listed as To be announced."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "How does combat work in ReBlade?",
+          "answer": "ReBlade combat is built around timing and control. Read enemy wind-ups, parry incoming attacks, deflect blaster bolts back at attackers, and use dodges or spacing when a room becomes too crowded to read."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "What carries over between ReBlade runs?",
+          "answer": "A ReBlade run resets its temporary weapons and augments, while permanent weapon and cybernetic chip unlocks carry forward. Player knowledge of enemy patterns and parry timing remains useful across every cycle."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "What platform is ReBlade on?",
+          "answer": "ReBlade: The Death Spiral is available as a free demo on Windows PC through Steam. The full game is listed for PC via Steam with its release date still To be announced."
         }
       ]
     },
